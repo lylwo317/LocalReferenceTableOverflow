@@ -1,0 +1,6 @@
+<resources>
+    <string name="title">LocalReferenceTableOverflow</string>
+    <string name="app_name">LRTOverflow</string>
+    <string name="native_arraylist_string_arraylist_jvm"><![CDATA[在Native中创建一个ArrayList<String>,并将这个ArrayList返回到JVM]]></string>
+    <string name="native_while_1_jstring_n_n_jstring_jvm">在Native中创建一个线程，然后该线程内部运行一个while(1)循环。每循环一次就会创建一个jstring。  这种场景往往出现在使用非阻塞网络库接收服务器发送的消息，并将消息转换成jstring传递给JVM</string>
+</resources>

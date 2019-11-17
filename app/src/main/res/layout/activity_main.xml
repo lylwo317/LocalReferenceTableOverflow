@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_create_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/native_while_1_jstring_n_n_jstring_jvm"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/bt_create_thread"
+        android:text="创建native子线程"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/tv_create_thread"
+        app:layout_constraintTop_toBottomOf="@+id/tv_create_thread" />
+
+
+    <TextView
+        android:id="@+id/tv_create_array_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/native_arraylist_string_arraylist_jvm"
+        app:layout_constraintStart_toStartOf="@+id/bt_create_thread"
+        app:layout_constraintTop_toBottomOf="@+id/bt_create_thread" />
+
+    <Button
+        android:id="@+id/bt_create_array_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建ArrayList"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/tv_create_array_list"
+        app:layout_constraintTop_toBottomOf="@+id/tv_create_array_list" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
